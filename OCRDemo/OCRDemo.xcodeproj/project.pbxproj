@@ -629,6 +629,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: CAO JIAN (MTEWK53NSC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CAO JIAN (MTEWK53NSC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCRDemo/OCRDemo-Prefix.pch";
 				INFOPLIST_FILE = "OCRDemo/OCRDemo-Info.plist";
@@ -637,6 +639,8 @@
 					"\"$(SRCROOT)/OCRDemo/Libs\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BF072D89-2A10-4C10-A39E-85E801076E64";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF072D89-2A10-4C10-A39E-85E801076E64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -645,6 +649,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: CAO JIAN (MTEWK53NSC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: CAO JIAN (MTEWK53NSC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCRDemo/OCRDemo-Prefix.pch";
 				INFOPLIST_FILE = "OCRDemo/OCRDemo-Info.plist";
@@ -653,6 +659,8 @@
 					"\"$(SRCROOT)/OCRDemo/Libs\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BF072D89-2A10-4C10-A39E-85E801076E64";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BF072D89-2A10-4C10-A39E-85E801076E64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
